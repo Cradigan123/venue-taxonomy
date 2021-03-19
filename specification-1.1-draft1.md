@@ -7,7 +7,7 @@ To report issues, or make suggestions, please feel free to [submit an issue](htt
 
 ----
 
-# Digital Out-of-Home Screen Venue Types
+# Digital Out-of-Home Screen Venue Types (Out of Home is not hypenated per OOH indsutry trade organization OAAA style guidelines) 
 
 The intention of this document is to standardize a taxonomy of venue types that represent Digital-Out-of-Home (DOOH) advertising screens within a programmatic OpenRTB 2.5 context. The systematization of DOOH venue types will allow for clearer targeting by media buying platforms across a spectrum of available supply-side platforms offering DOOH inventory.
 
@@ -71,7 +71,7 @@ Grandchildren venue types provide the most precise contextual geospatial informa
 
 Venues can be assigned to a grandchild but are optional and at the purview of the publisher or supply-side platform to provide. This information may not appear due to lack of the availability of the precise information, or the lack of differentiation needs away from the parent.
 
-## Placement in Bid Requests
+## Placement in Bid Requests   SUGGEST Creating a data hierarchy:  "Grandparents" Or perhaps it would be "Great Grandparents" Outdoor placed on roads and streets are not venues.  Sugestion:  Hierarchy--"Outdoor" AND "Indoor"  or "Outdoor" and "Venue"  
 
 In terms of placing venue types, this specification suggests placing venue type information in the device object of an OpenRTB 2.5 `bid_request`. The path would lead into an extension and a subsequent dooh object. The declaration of format is implicit to one the following formats:
 
